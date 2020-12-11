@@ -3,44 +3,39 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #ede8f3;
 }
 
-.keys {
-  display: flex;
-  flex: 1;
+.exp-container {
   min-height: 100vh;
+  margin: 0 32px;
+
+
+  h1 {
+    text-align: center;
+    padding: 64px 0 0 0;
+  }
+
+  h6 {
+    text-align: center;
+  }
+
+}
+
+.main-cards {
+  background-color: #fff;
+  border-radius: 8px;
+  height: 480px;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: space-evenly;
+  padding: 16px;
 
-.key {
-  border: .4rem solid black;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .07s ease;
-  width: 10rem;
-  text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
-}
-
-.playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
-}
-
-kbd {
-  display: block;
-  font-size: 4rem;
-}
-
-.sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  color: #ffc600;
+  img {
+    width: 600px;
+    padding: 16px;
+  }
 }
